@@ -1,0 +1,87 @@
+[
+	{
+		"name": "Bug",
+		"color": "e32b2b",
+		"description": "Something isn't working."
+	},
+	{
+		"name": "CRITICAL",
+		"color": "b60205",
+		"description": "Needs to be done urgently."
+	},
+	{
+		"name": "Feature",
+		"color": "ff8c00",
+		"description": "New feature or request."
+	},
+	{
+		"name": "Documentation",
+		"color": "0052cc",
+		"description": "Related to project documentation."
+	},
+	{
+		"name": "Duplicate",
+		"color": "aaaaaa",
+		"description": "This issue or pull request already exists."
+	},
+	{
+		"name": "Good First Issue",
+		"color": "7057ff",
+		"description": "Good for newcomers."
+	},
+	{
+		"name": "Help Wanted",
+		"color": "008672",
+		"description": "Extra attention is needed."
+	},
+	{
+		"name": "Invalid",
+		"color": "e4e669",
+		"description": "This doesn't seem right."
+	},
+	{
+		"name": "Question",
+		"color": "d876e3",
+		"description": "Further information is requested."
+	},
+	{
+		"name": "SEO",
+		"color": "2ec866",
+		"description": "Related to search engine optimization."
+	},
+	{
+		"name": "Page",
+		"color": "1d76db",
+		"description": "Page needs creating."
+	},
+	{
+		"name": "Accessibility",
+		"color": "5319e7",
+		"description": "Improvements for accessibility."
+	},
+	{
+		"name": "Refactor",
+		"color": "f7c325",
+		"description": "Code improvements without changing functionality."
+	},
+	{
+		"name": "Performance",
+		"color": "ffcc00",
+		"description": "Optimizing performance."
+	},
+	{
+		"name": "Security",
+		"color": "e91e63",
+		"description": "Fixing security vulnerabilities."
+	},
+	{
+		"name": "Infrastructure",
+		"color": "f9d0c4",
+		"description": "Issues related to deployment, hosting, or Cloudflare."
+	},
+	{
+		"name": "Styling",
+		"color": "ff69b4",
+		"description": "UI or Tailwind-related changes."
+	}
+]
