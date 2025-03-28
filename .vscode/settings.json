@@ -12,5 +12,7 @@
 	"prettier.singleQuote": false,
 	"editor.detectIndentation": false,
 	"files.autoSave": "onFocusChange",
-	"editor.formatOnSave": true
+	"editor.formatOnSave": true,
+	"IDX.aI.enableInlineCompletion": true,
+	"IDX.aI.enableCodebaseIndexing": true
 }
