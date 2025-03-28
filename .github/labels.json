@@ -1,87 +1,87 @@
 [
 	{
 		"name": "Bug",
-		"color": "e32b2b",
+		"color": "d9534f",
 		"description": "Something isn't working."
 	},
 	{
 		"name": "CRITICAL",
-		"color": "b60205",
+		"color": "d11a2a",
 		"description": "Needs to be done urgently."
 	},
 	{
 		"name": "Feature",
-		"color": "ff8c00",
+		"color": "f0ad4e",
 		"description": "New feature or request."
 	},
 	{
 		"name": "Documentation",
-		"color": "0052cc",
+		"color": "5bc0de",
 		"description": "Related to project documentation."
 	},
 	{
 		"name": "Duplicate",
-		"color": "aaaaaa",
+		"color": "95a5a6",
 		"description": "This issue or pull request already exists."
 	},
 	{
 		"name": "Good First Issue",
-		"color": "7057ff",
+		"color": "9b59b6",
 		"description": "Good for newcomers."
 	},
 	{
 		"name": "Help Wanted",
-		"color": "008672",
+		"color": "3498db",
 		"description": "Extra attention is needed."
 	},
 	{
 		"name": "Invalid",
-		"color": "e4e669",
+		"color": "f7f066",
 		"description": "This doesn't seem right."
 	},
 	{
 		"name": "Question",
-		"color": "d876e3",
+		"color": "2980b9",
 		"description": "Further information is requested."
 	},
 	{
 		"name": "SEO",
-		"color": "2ec866",
+		"color": "2ecc71",
 		"description": "Related to search engine optimization."
 	},
 	{
 		"name": "Page",
-		"color": "1d76db",
+		"color": "1abc9c",
 		"description": "Page needs creating."
 	},
 	{
 		"name": "Accessibility",
-		"color": "5319e7",
+		"color": "8e44ad",
 		"description": "Improvements for accessibility."
 	},
 	{
 		"name": "Refactor",
-		"color": "f7c325",
+		"color": "f39c12",
 		"description": "Code improvements without changing functionality."
 	},
 	{
 		"name": "Performance",
-		"color": "ffcc00",
+		"color": "27ae60",
 		"description": "Optimizing performance."
 	},
 	{
 		"name": "Security",
-		"color": "e91e63",
+		"color": "e74c3c",
 		"description": "Fixing security vulnerabilities."
 	},
 	{
-		"name": "Infrastructure",
-		"color": "f9d0c4",
-		"description": "Issues related to deployment, hosting, or Cloudflare."
+		"name": "Styling",
+		"color": "00bcff",
+		"description": "UI or Tailwind-related changes."
 	},
 	{
-		"name": "Styling",
-		"color": "ff69b4",
-		"description": "UI or Tailwind-related changes."
+		"name": "Dependencies",
+		"color": "800080",
+		"description": "Dependencies have updates available."
 	}
 ]
