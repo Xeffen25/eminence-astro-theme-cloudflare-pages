@@ -12,11 +12,14 @@ import SkipToMain from "@/components/util/SkipToMain.astro";
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<title>Astro Basics</title>
+		<slot name="head-end" />
 	</head>
 	<body>
+		<slot name="body-start" />
 		<SkipToMain />
 		<main id="main" role="main" tabindex="-1">
 			<slot />
 		</main>
+		<slot name="body-end" />
 	</body>
 </html>
