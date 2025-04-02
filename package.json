@@ -9,10 +9,10 @@
 		"astro": "astro",
 		"deploy": "astro build && wrangler pages deploy",
 		"cf-typegen": "wrangler types",
-		"format": "prettier . --write",
-		"format:check": "prettier . --check",
-		"lint": "eslint --fix",
-		"lint:check": "eslint"
+		"format": "prettier . --check",
+		"format:fix": "prettier . --write",
+		"lint": "eslint",
+		"lint:fix": "eslint --fix"
 	},
 	"dependencies": {
 		"@astrojs/cloudflare": "^12.3.1",
