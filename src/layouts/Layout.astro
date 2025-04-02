@@ -2,7 +2,10 @@
 import "@/styles/global.css";
 
 // Components:
+import Seo from "@/components/seo/Seo.astro";
 import SkipToMain from "@/components/util/SkipToMain.astro";
+
+type Props = SeoPage;
 ---
 
 <!doctype html>
@@ -10,9 +13,9 @@ import SkipToMain from "@/components/util/SkipToMain.astro";
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<title>Astro Basics</title>
-		<slot name="head-end" />
+		<title>{Astro.props.title}</title>
+		<slot name="head" />
+		<Seo {...Astro.props} />
 	</head>
 	<body>
 		<slot name="body-start" />

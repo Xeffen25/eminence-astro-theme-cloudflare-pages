@@ -14,8 +14,13 @@ const gitignorePath = path.resolve(__dirname, ".gitignore");
 
 export default tseslint.config(
 	eslint.configs.recommended,
-	tseslint.configs.recommended,
+	tseslint.configs.strict,
 	includeIgnoreFile(gitignorePath),
 	...eslintPluginAstro.configs["flat/recommended"],
 	jsxA11y.flatConfigs.strict,
+	{
+		rules: {
+			"no-undef": "off",
+		},
+	},
 );
