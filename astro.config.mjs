@@ -11,7 +11,7 @@ import robotsTxt from "astro-robots-txt";
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://eminence-astro-theme-cloudflare-pages.pages.dev/",
+	site: "https://eminence-astro-theme-cloudflare-pages.xeffen25.com",
 	i18n: {
 		defaultLocale: "es",
 		locales: ["es"],
