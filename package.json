@@ -8,7 +8,7 @@
 		"preview": "wrangler types && astro build && wrangler pages dev",
 		"deploy": "wrangler types && astro build && wrangler pages deploy",
 		"typegen": "wrangler types",
-		"astro": "wrangler types && astro",
+		"astro": "astro",
 		"format": "prettier . --check",
 		"format:fix": "prettier . --write",
 		"lint": "eslint",
