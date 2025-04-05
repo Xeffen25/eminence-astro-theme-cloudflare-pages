@@ -100,14 +100,14 @@ We follow common React naming conventions for filenames, component names, classe
 - When declaring **instances** of components, always use `camelCase`.
 - When declaring **exported constants**, always use `SCREAMING_SNAKE_CASE`.
 
-| &nbsp;                       | ✅ Valid                                  | 🚫 Invalid                                                                          |
-| ---------------------------- | ----------------------------------------- | ----------------------------------------------------------------------------------- |
-| **Component filenames:**     | `ProductTitle.tsx`<br>`ProductTitle.tsx`  | `productTitle.tsx`<br>`product_title.tsx`<br>`product-title.tsx`                    |
-| **Non-component filenames:** | `client.ts`<br>`handle-event.ts`          | `Client.ts`<br>`handleEvent.ts`<br>`handle_event.ts`                                |
-| **Test filenames:**          | `ExternalVideo.test.tsx`                  | `ExternalVideo-test.tsx`<br>`ExternalVideo_test.tsx`<br>`ExternalVideoTest.tsx`     |
-| **Component classes:**       | `<AddToCartButton />`                     | `<addToCartButton />`                                                               |
-| **Component instances:**     | `const cartSelector = <CartSelector />`   | `const CartSelector = <CartSelector />`<br>`const cart_selector = <CartSelector />` |
-| **Exported constants:**      | `export const CART_COOKIE_TTL_DAYS = 14;` | `export const CartCookieTTLDays = 14;`<br>`export const cart_cookie_ttl_days = 14;` |
+| &nbsp;                        | ✅ Valid                                      | 🚫 Invalid                                                                               |
+| ----------------------------- | --------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| **Component filenames:**      | `BookDetails.tsx`<br>`BookDetails.tsx`        | `bookDetails.tsx`<br>`book_details.tsx`<br>`book-details.tsx`                            |
+| **Non-component filenames:**  | `database.ts`<br>`process-query.ts`           | `Database.ts`<br>`processQuery.ts`<br>`process_query.ts`                                 |
+| **Test filenames:**           | `LoanRecord.test.tsx`                         | `LoanRecord-test.tsx`<br>`LoanRecord_test.tsx`<br>`LoanRecordTest.tsx`                   |
+| **Component classes:**        | `<CheckOutBookForm />`                        | `<checkOutBookForm />`                                                                   |
+| **Component instances:**      | `const bookSearch = <BookSearch />`           | `const BookSearch = <BookSearch />`<br>`const book_search = <BookSearch />`              |
+| **Exported constants:**       | `export const MAX_LOAN_DAYS = 30;`            | `export const MaxLoanDays = 30;`<br>`export const max_loan_days = 30;`                   |
 
 ## 💬 Commit messages
 
