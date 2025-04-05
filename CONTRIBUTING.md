@@ -1,10 +1,8 @@
 # Working on Eminence Astro Theme for Cloudflare Pages
 
-## Getting started
+## 🚀 Getting started
 
-**Requirements:**
-
-- Node.js version 20 or higher
+Use the following commands in your desired terminal to start your project locally:
 
 | Command                                                                       | Description                            |
 | ----------------------------------------------------------------------------- | -------------------------------------- |
@@ -12,13 +10,64 @@
 | `npm install`                                                                 | Installs the dependencies with `npm`   |
 | `npm run dev`                                                                 | Runs the `dev` command in all packages |
 
-## Context
+> You can also just import it in IDX! It's alredy configured!
+
+## 💡 Context
 
 This site is built using [Astro](https://astro.build/) (a web framework) and deployed on [Cloudflare Pages](https://developers.cloudflare.com/pages/).
 
-## Project Structure
+If at any time you need more information head to the [wiki](https://github.com/Xeffen25/eminence-astro-theme-cloudflare-pages/wiki), you will find everything in detail there!
 
-## Formatting and Linting
+## 📂 Project Structure
+
+Inside of your Astro project, you'll see the following folders and files:
+
+```text
+/
+├── .github/              # Configuration files for GitHub (workflows, issue templates...).
+├── .husky/               # Configuration for Husky, Git hooks for code quality.
+├── .idx/                 # IDX editor configuration.
+├── .vscode/              # VS Code settings and configurations.
+├── public/               # Static assets served directly (favicons, images, etc.).
+│   ├── images/           # Images used in the project.
+│   ├── videos/           # Videos used in the project.
+│   └── fonts/            # Custom fonts used in the project.
+│   ├── favicons...       # Favicons for different devices and browsers.
+├── src/                  # Source code for the Astro project.
+│   ├── actions/          # Server actions or API endpoint logic.
+│   │   └── index.ts      # Main point for server actions.
+│   ├── assets/           # General assets (e.g., SVGs, icons).
+│   ├── components/       # Reusable UI components.
+│   │   ├── seo/          # SEO related components
+│   │   └── util/         # Utility components (SkipToMain...).
+│   ├── content/          # Content collections for Astro (e.g., blog posts, documentation).
+│   ├── forms/            # Form components and logic.
+│   │   ├── action.ts     # Form submission logic.
+│   │   ├── component.tsx # React component for the form.
+│   │   └── schema.ts     # Data validation schema for the form.
+│   ├── layouts/
+│   │   └── Layout.astro  # Main layout of the site.
+│   ├── lib/              # Utility functions and helper modules.
+│   ├── scripts/          # JavaScript scripts for client-side interactions.
+│   ├── sections/         # Mirrors src/pages but with folders for each page.
+│   ├── styles/           # Global styles and component-specific styles.
+│   ├── tests/            # Unit and integration tests.
+│   └── types/            # TypeScript type definitions.
+├── .dev.vars             # Development environment variables.
+├── .gitignore            # Specifies intentionally untracked files that Git should ignore.
+├── .prettierrc.mjs       # Configuration for Prettier code formatter.
+├── astro.config.mjs      # Configuration file for Astro.
+├── CONTRIBUTING.md       # Guidelines for contributing to the project.
+├── eslint.config.mjs     # Configuration for ESLint linter.
+├── LICENSE.md            # License information for the project.
+├── package-lock.json     # Lock file for npm dependencies.
+├── package.json          # Project metadata and dependencies.
+├── README.md             # Project documentation.
+├── tsconfig.json         # TypeScript configuration file.
+└── wrangler.jsonc        # Configuration file for Cloudflare.
+```
+
+## 🧹 Formatting and Linting
 
 This project uses a combination of tools to ensure consistent code formatting and quality:
 
@@ -43,7 +92,7 @@ This project uses a combination of tools to ensure consistent code formatting an
 
 Please ensure your code passes all linting and formatting checks, both locally and in GitHub Actions, before submitting a pull request.
 
-## Naming conventions
+## 🏷️ Naming conventions
 
 We follow common React naming conventions for filenames, component names, classes, constants, and more.
 
@@ -62,7 +111,7 @@ We follow common React naming conventions for filenames, component names, classe
 | **Component instances:**     | `const cartSelector = <CartSelector />`   | `const CartSelector = <CartSelector />`<br>`const cart_selector = <CartSelector />` |
 | **Exported constants:**      | `export const CART_COOKIE_TTL_DAYS = 14;` | `export const CartCookieTTLDays = 14;`<br>`export const cart_cookie_ttl_days = 14;` |
 
-## Commit messages
+## 💬 Commit messages
 
 Following the [Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/#specification) ensures clear and consistent commit messages, improving project maintainability and automation.
 
@@ -104,6 +153,7 @@ This convention dovetail with SemVer:
 - feat=MINOR
 - BREAKING CHANGE=MAJOR.
 
-## Merging PRs
+## 🤝 Merging PRs
 
 When merging PRs, please select the **Squash and Merge** option, which consolidates all the changes from the PR into a single commit. This helps reduce the commit noise in our Git repository.
+
