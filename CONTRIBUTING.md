@@ -1,5 +1,3 @@
-# Working on Eminence Astro Theme for Cloudflare Pages
-
 ## 🚀 Getting started
 
 Use the following commands in your desired terminal to start your project locally:
@@ -156,4 +154,3 @@ This convention dovetail with SemVer:
 ## 🤝 Merging PRs
 
 When merging PRs, please select the **Squash and Merge** option, which consolidates all the changes from the PR into a single commit. This helps reduce the commit noise in our Git repository.
-
