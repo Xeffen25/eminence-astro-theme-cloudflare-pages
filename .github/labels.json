@@ -83,5 +83,10 @@
 		"name": "Dependencies",
 		"color": "800080",
 		"description": "Dependencies have updates available."
+	},
+	{
+		"name": "Format",
+		"color": "c2e0c6",
+		"description": "Related to files format."
 	}
 ]
