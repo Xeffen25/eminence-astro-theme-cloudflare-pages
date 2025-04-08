@@ -1,6 +1,7 @@
 {
 	"files.associations": {
-		"wrangler.json": "jsonc"
+		"wrangler.json": "jsonc",
+		"*.css": "tailwindcss"
 	},
 	"editor.wordWrapColumn": 120,
 	"editor.tabSize": 4,
